@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+
+<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css" type="text/css"/>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDNwQwGbE9gxbfGNGPucA0GrNN_7tyQlsE",
+    authDomain: "map-visulization.firebaseapp.com",
+    databaseURL: "https://map-visulization.firebaseio.com",
+    projectId: "map-visulization",
+    storageBucket: "",
+    messagingSenderId: "612315550862"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="resources/jquery-1.9.1.min.js"></script>
+<script src="resources/bootstrap/js/bootstrap.min.js"></script>
+
+<head>
+</head>
+
+<body style="background-color:#87cefa;">
+	<div style="padding:15px;">
+	<h2 style="size:bold;color:blue;text-align:center;">Welcome...!!</h2>
+	<br>
+	<p>Here is the Map Visulization. </p>
+	<p><b>Name:</b> Dhruvin Soni</p>
+	<p><b>ID:</b> 2015A7PS0047G</p>
+	<p><b>College:</b> BITS-Goa.</p>
+	<button style="display:;" class="btn btn-primary" onclick="document.location='map.html'">Go to Map</button>
+	<br><br>
+	<button style="" class="btn btn-primary" onclick="	document.location='earthquake.html';">Go to Earthquake Map   <b>></b></b></button>
+	<br>
+	<br>
+	<button style="display:;" class="btn btn-primary" onclick="	document.location='NYCvehicleCollisions.html';">Go to NYC vehicle collosion Map  <b>></b></b><br>(Experimental Visulization)</button>
+	</div>
+</body>
+</html>
